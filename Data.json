@@ -1,0 +1,171 @@
+{
+  "Zombies": {
+    "Horda Comun": "z_spawn mob",
+    "Boomer": "z_spawn boomer",
+    "Hunter": "z_spawn hunter",
+    "Smoker": "z_spawn smoker",
+    "Charger": "z_spawn charger",
+    "Jockey": "z_spawn jockey",
+    "Spitter": "z_spawn spitter",
+    "Witch": {
+      "Comando": "z_spawn witch",
+      "Nota": "Cuidado, las Witch son peligrosas si te acercas demasiado o las asustas."
+    },
+    "Tank": {
+      "Comando": "z_spawn tank",
+      "Nota": "¡Prepárate para una buena pelea cuando generes a este!"
+    }
+  },
+  "Items": {
+    "Botiquin de Primeros Auxilios": "give first_aid_kit",
+    "Analgesicos": "give painpills",
+    "Adrenalina": "give adrenaline",
+    "Desfibrilador": "give defibrillator",
+    "Bomba Casera": "give pipe_bomb",
+    "Molotov": "give molotov",
+    "Bilis de Boomer": "give vomitjar"
+  },
+  "Weapons": {
+    "Armas de Fuego": {
+      "Pistolas": {
+        "Pistola Estandar": "give pistol",
+        "Magnum": "give pistol_magnum"
+      },
+      "Subfusiles": {
+        "Subfusil": "give smg",
+        "Subfusil Silenciado": "give smg_silenced"
+      },
+      "Escopetas": {
+        "Escopeta Cromada": "give shotgun_chrome",
+        "Escopeta Tactica": "give shotgun_tactical",
+        "Escopeta de Combate": "give shotgun_spas",
+        "Escopeta Automatica": "give autoshotgun"
+      },
+      "Rifles": {
+        "M16": "give rifle",
+        "AK-47": "give rifle_ak47",
+        "Rifle de Caza": "give rifle_hunting",
+        "Rifle Francotirador Militar": "give sniper_military",
+        "SCAR (Rifle del Desierto)": "give rifle_desert"
+      },
+      "Armas Pesadas": {
+        "M60": "give rifle_m60",
+        "Lanzagranadas": "give weapon_grenade_launcher"
+      }
+    },
+    "Armas Cuerpo a Cuerpo": {
+      "Bate de Beisbol": "give bat",
+      "Katana": "give katana",
+      "Motosierra": "give chainsaw",
+      "Hacha de Bombero": "give fireaxe",
+      "Sarten": "give frying_pan",
+      "Palanca": "give crowbar",
+      "Machete": "give machete",
+      "Palo de Golf": "give golfclub",
+      "Tonfa": "give tonfa",
+      "Guitarra Electrica": "give guitar",
+      "Cuchillo de Combate": "give knife",
+      "Bate de Criquet": "give cricket_bat"
+    }
+  },
+  "Upgrades": {
+    "Mira Laser": "ent_create upgrade_laser_sight",
+    "Municion Explosiva": "ent_create upgrade_ammo_explosive",
+    "Municion Incendiaria": "ent_create upgrade_ammo_incendiary"
+  },
+  "Cheats": {
+    "Municion Infinita": "sv_infinite_ammo 1",
+    "Modo Dios": "god 1",
+    "No Clip": "noclip",
+    "Eliminar Zombies": "kill all",
+    "Velocidad de Movimiento": "sv_cheats 1; host_timescale 2",
+    "Velocidad Normal": "host_timescale 1"
+  },
+  "Maps": {
+    "Dead Center": [
+      "c1m1_hotel",
+      "c1m2_streets",
+      "c1m3_mall",
+      "c1m4_atrium"
+    ],
+    "Dark Carnival": [
+      "c2m1_highway",
+      "c2m2_fairgrounds",
+      "c2m3_coaster",
+      "c2m4_barns",
+      "c2m5_concert"
+    ],
+    "Swamp Fever": [
+      "c3m1_plankcountry",
+      "c3m2_swamp",
+      "c3m3_shantytown",
+      "c3m4_plantation"
+    ],
+    "Hard Rain": [
+      "c4m1_milltown_a",
+      "c4m2_sugarmill_a",
+      "c4m3_sugarmill_b",
+      "c4m4_milltown_b",
+      "c4m5_milltown_escape"
+    ],
+    "The Parish": [
+      "c5m1_waterfront",
+      "c5m2_park",
+      "c5m3_cemetery",
+      "c5m4_quarter",
+      "c5m5_bridge"
+    ],
+    "The Passing": [
+      "c6m1_riverbank",
+      "c6m2_bedlam",
+      "c6m3_port"
+    ],
+    "The Sacrifice": [
+      "c7m1_docks",
+      "c7m2_barge",
+      "c7m3_port"
+    ],
+    "No Mercy": [
+      "c8m1_apartment",
+      "c8m2_subway",
+      "c8m3_sewers",
+      "c8m4_interior",
+      "c8m5_rooftop"
+    ],
+    "Crash Course": [
+      "c9m1_alleys",
+      "c9m2_lots"
+    ],
+    "Death Toll": [
+      "c10m1_caves",
+      "c10m2_drainage",
+      "c10m3_ranchhouse",
+      "c10m4_mainstreet",
+      "c10m5_houseboat"
+    ],
+    "Dead Air": [
+      "c11m1_greenhouse",
+      "c11m2_offices",
+      "c11m3_garage",
+      "c11m4_terminal",
+      "c11m5_runway"
+    ],
+    "Blood Harvest": [
+      "c12m1_hilltop",
+      "c12m2_traintunnel",
+      "c12m3_bridge",
+      "c12m4_barn",
+      "c12m5_cornfield"
+    ],
+    "Cold Stream": [
+      "c13m1_alpinecreek",
+      "c13m2_southpinestream",
+      "c13m3_memorialbridge",
+      "c13m4_cutthroatcreek"
+    ],
+    "The Last Stand": [
+      "c14m1_junkyard",
+      "c14m2_lighthouse"
+    ]
+  }
+}
