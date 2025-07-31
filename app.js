@@ -34,7 +34,7 @@ const SECTIONS_CONFIG = {
   Maps: {
     icon: "🗺️",
     color: "green",
-    borderColors: { default: "border-blue-400" },
+    borderColors: { default: "border-green-400" },
   },
 };
 
@@ -246,7 +246,7 @@ const mapsHandler = (data) => {
   Object.entries(data).forEach(([campaignName, maps]) => {
     const card = createElement(
       "div",
-      "bg-white p-6 rounded-lg border-l-4 border-blue-400 shadow-sm hover:shadow-md transition-shadow"
+      "bg-white p-6 rounded-lg border-l-4 border-red-500 shadow-sm hover:shadow-md transition-shadow command-card"
     );
     card.appendChild(
       createElement(
